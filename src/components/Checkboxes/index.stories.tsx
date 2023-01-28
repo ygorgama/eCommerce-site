@@ -6,6 +6,7 @@ export default {
   component: Checkbox,
   args: {
     name: "Label",
+    isDisable: false,
   },
 } as Meta<CheckboxProps>;
 
