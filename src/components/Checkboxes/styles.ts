@@ -42,6 +42,7 @@ export const CheckboxStyle = styled.input.attrs({
   }
   :disabled {
     border: 2px solid ${defaultTheme.colors["light-text"]};
+    cursor: not-allowed;
   }
 `;
 
