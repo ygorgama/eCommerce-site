@@ -4,13 +4,15 @@ import { Meta, StoryObj } from "@storybook/react";
 export default {
   title: "Components/Checkbox",
   component: Checkbox,
-  args: {},
+  args: {
+    name: "Label",
+  },
 } as Meta<CheckboxProps>;
 
 export const Default: StoryObj = {};
 
-// export const Activate: StoryObj = {
-//   args: {
-//     isActivate: true,
-//   },
-// };
+export const Label: StoryObj = {
+  args: {
+    label: "Label",
+  },
+};
