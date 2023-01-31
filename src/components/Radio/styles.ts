@@ -9,8 +9,8 @@ export const RadioStyle = styled.input.attrs({
   background-color: ${defaultTheme.colors.bright};
   border: 2px solid ${defaultTheme.colors["low-emphasis"]};
   color: ${defaultTheme.colors["low-emphasis"]};
-  height: 1.05em;
-  width: 1.05em;
+  height: 1.1em;
+  width: 1.1em;
   border-radius: 50%;
   display: flex;
   place-content: center;
@@ -21,12 +21,12 @@ export const RadioStyle = styled.input.attrs({
   margin-right: 0.4em;
   :checked {
     background-color: ${defaultTheme.colors.bright};
-    border: none;
+    border: 2px solid ${defaultTheme.colors.primary};
     ::after {
       content: "⬤";
       color: ${defaultTheme.colors.primary};
       font-weight: 700;
-      font-size: 14px;
+      font-size: 12px;
     }
   }
   :hover {
