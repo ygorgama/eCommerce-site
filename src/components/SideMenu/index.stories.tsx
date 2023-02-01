@@ -1,14 +1,25 @@
-import { SideMenu } from "./index";
+import { SideMenu, SideMenuProps } from "./index";
 import { Meta, StoryObj } from "@storybook/react";
+import { withRouter } from "storybook-addon-react-router-v6";
 
 export default {
   title: "Components/SideMenu",
   component: SideMenu,
-  args: {
-    name: "Label",
-    isDisable: false,
+  decorators: [withRouter],
+  parameters: {
+    reactRouter: {
+      routePath: "/",
+    },
   },
-} as Meta;
+  args: {
+    to: "/label",
+    label: "Label",
+  },
+} as Meta<SideMenuProps>;
 
 export const Default: StoryObj = {};
-
+export const Activate: StoryObj = {
+  args: {
+    to: "/",
+  },
+};
