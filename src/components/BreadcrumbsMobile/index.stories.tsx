@@ -3,7 +3,7 @@ import { Meta, StoryObj } from "@storybook/react";
 import { withRouter } from "storybook-addon-react-router-v6";
 
 export default {
-  title: "Components/BreadcrumbMobile",
+  title: "Components/Breadcrumbs",
   component: BreadcrumbsMobile,
   decorators: [withRouter],
   parameters: {
