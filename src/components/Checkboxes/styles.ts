@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { defaultTheme } from "../../styles/theme/defaultTheme";
-import { BsCheckLg } from "react-icons/bs";
 
 interface CheckboxStyleProps {
   label?: string;
