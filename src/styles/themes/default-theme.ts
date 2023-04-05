@@ -1,0 +1,45 @@
+export default {
+  title: "default-theme",
+  
+  colors: {
+    primary: "#1B4B66",
+    "primary-tint": "#639599",
+    error: "#B00020",
+    highlight: "#FF8C4B",
+    dark: "#13101E",
+    bright: "#FFFFFF",
+    accent: "#F4F4F4",
+    grey: "#F1F1F1",
+    "light-text": "#B6B6B6",
+    "high-emphasis": "#171520",
+    "low-emphasis": "#626262",
+  },
+
+  fontSize: {
+    "display-large": "40px",
+    "display-medium": "34px",
+    "display-small": "20px",
+    "title-medium": "14px",
+    "title-regular": "14px",
+    "body-medium": "16px",
+    "body-regular": "16px",
+    "label-large": "14px",
+    "label-medium": "12px",
+    "label-smal": "12px",
+    link: "12px",
+  },
+
+  fontWeight: {
+    "display-large": "700",
+    "display-medium": "600",
+    "display-small": "600",
+    "title-medium": "500",
+    "title-regular": "600",
+    "body-medium": "500",
+    "body-regular": "400",
+    "label-large": "400",
+    "label-medium": "500",
+    "label-smal": "600",
+    link: "500",
+  },
+};
