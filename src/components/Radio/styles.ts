@@ -34,6 +34,7 @@ export const Container = styled.input.attrs({
   &&:disabled {
     border: 2px solid ${({ theme }) => theme.colors["light-text"]};
   }
+  
 `;
 
 export const Box = styled.div<ContainerProps>`
